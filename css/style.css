@@ -43,14 +43,15 @@ p {
   margin:0 2% 20px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
+@media (min-width: 374px) {
+  .hero img {
+    width: 80%;
   }
 }
+
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+     width: 970px;
   }
   .one-half {
     width:46%;
@@ -61,11 +62,13 @@ p {
   .one-fourth {
     width:21%;
   }
+
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
+
 }
 
 /* HEADER */
@@ -124,7 +127,7 @@ header .hero {
    display: block;
    margin:3em auto 0;
  }
- 
+
  /* BUTTONS */
  .btn {
    border-radius: 4px;
