@@ -43,9 +43,16 @@ p {
   margin:0 2% 20px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
+@media (min-width: 470px) {
+  header li {
+    padding: 20px;
+}
+
+  .one-half {
+    width: 46%;
+  }
+  img {
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
