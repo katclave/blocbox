@@ -44,9 +44,11 @@ p {
 }
 
 @media (min-width: 470px) {
-  header li {
+ header li {
     padding: 20px;
 }
+
+
 
   .one-half {
     width: 46%;
