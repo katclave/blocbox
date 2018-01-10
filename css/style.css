@@ -568,3 +568,6 @@ header .hero {
    line-height: 18px;
    margin:5px 0 0;
  }
+ .left-nav .items .active {
+   background-color: #4AC4E2;
+ }
