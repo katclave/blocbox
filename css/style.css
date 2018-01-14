@@ -624,6 +624,8 @@ header .hero {
 to adjust the favicon size rather than just calling
 the favicon? */
 
+
+
  .favicon {
    width:16px;
    height:16px;

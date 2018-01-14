@@ -15,11 +15,11 @@
   float: right;
   display:inline-block;
 }
-.dropit .dropit-trigger { position: relative; }
-.dropit .dropit-submenu {
+.dropit .dropit-trigger  { position: relative; }
+.dropit ul.account-settings-menu.dropit-submenu {
     position: absolute;
-    top: 100%;
-    right: 0; /* drop down left or right */
+    bottom: 100%;
+    right: 0;
     z-index: 1000;
     display: none;
     min-width: 100px;
@@ -27,13 +27,40 @@
 	padding: 20px;
 	margin: 20px 0 0;
 }
+
+.dropit ul.add-button-menu.dropit-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+	padding: 20px;
+	margin: 20px 0 0;
+}
+
+/*
+.dropit .dropit-submenu  {
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      z-index: 1000;
+      display: none;
+      min-width: 100px;
+      list-style: none;
+  	padding: 20px;
+  	margin: 20px 0 0;
+  } */
+
+
 .dropit .dropit-open .dropit-submenu {
   display: block;
   background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
 }
- .dropit .dropit-open .dropit-submenu:after {
+ .dropit .dropit-open ul.add-button-menu.dropit-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
@@ -43,6 +70,18 @@
   width: 0;
   z-index: 1;
   top: -8px;
+  right: 10px;
+ }
+ .dropit .dropit-open ul.account-settings-menu.dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 0;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -8px;
   right: 10px;
  }
  .dropit .dropit-open .dropit-submenu li {
